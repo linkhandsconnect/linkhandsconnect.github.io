@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LinkHands</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #F9FAFC; margin: 0; }
+        header { background: #2A68D4; color: white; text-align: center; padding: 20px; }
+        form { max-width: 600px; margin: 40px auto; padding: 30px; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        label { display: block; margin: 15px 0 5px; }
+        input, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+        button { margin-top: 20px; background: #2A68D4; color: white; padding: 12px; font-size: 16px; border: none; border-radius: 6px; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <form action="https://formsubmit.co/mr.nezar24@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
